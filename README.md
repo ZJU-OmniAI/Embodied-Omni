@@ -2,6 +2,8 @@
 ✨This is the official implementation of paper 
 <a href="https://arxiv.org/abs/2503.21696">Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks</a>
 
+> **📦 This repository has moved.** It was previously hosted at `github.com/zwq2018/embodied_reasoner` — the URL cited in our paper — and now lives under the [ZJU-OmniAI](https://github.com/ZJU-OmniAI) organization. GitHub redirects the old URL here automatically, so existing links, clones, and remotes keep working.
+
 <table>
   <tr>
     <td width="30%">
@@ -35,7 +37,7 @@
     <source src="./assets/video_v2_en.mp4">
   </video> 
 </p> -->
-<!-- [![Watch the demo](./assets/video_thumbnail.png)](https://github.com/zwq2018/embodied_reasoner/blob/main/assets/video_v2_en.mov?raw=true) -->
+<!-- [![Watch the demo](./assets/video_thumbnail.png)](https://github.com/ZJU-OmniAI/embodied_reasoner/blob/main/assets/video_v2_en.mov?raw=true) -->
 
 
 <!--https://github.com/user-attachments/assets/677497aa-2b8e-4ed2-a8c7-249bbe0b2206-->
