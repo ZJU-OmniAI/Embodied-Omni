@@ -47,10 +47,6 @@ Common design principles across the series:
 
 ## 🔍 Embodied-Reasoner
 
-<p align="center">
-  <img src="embodied_reasoner/assets/embodied_reasoner.JPG" width="88%" alt="Embodied-Reasoner">
-</p>
-
 <div align="center">
 
 **Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks**
