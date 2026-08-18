@@ -33,7 +33,7 @@ Two projects live here today, covering the two halves of physical-world competen
 
 | Project | One-line summary | Embodiment & benchmark | Status |
 |---|---|---|---|
-| 🔍 **[Embodied-Reasoner](./embodied_reasoner/)** | An o1-style multimodal reasoning model for **interactive** tasks — search for hidden objects, manipulate and transport them, with explicit analysis, spatial reasoning, reflection, and planning. | Indoor agent in AI2-THOR (107 scenes) | **ACL 2026 Main** ✅ |
+| 🔍 **[Embodied-Reasoner](./embodied_reasoner/)** | An **embodied reasoning model** for the physical world: it plans long-horizon tasks, reasons about the state of its environment, and reflects on its own actions while it keeps interacting. | Indoor agent in AI2-THOR (107 scenes) | **ACL 2026 Main** ✅ |
 | 🧭 **[Embodied-Navigator](./embodied_navigator/)** | A vision-language **navigation** framework: the VLM points at a pixel instead of regressing coordinates, thinks only at critical nodes, compresses history into anchors, and is aligned with Two-Level GRPO. | Habitat R2R-CE / RxR-CE + Unitree Go2 quadruped | Paper coming soon 🚧 |
 
 Common design principles across the series:
@@ -69,36 +69,18 @@ https://github.com/user-attachments/assets/da9c5b42-ab8e-4101-9ec0-a226590d23fc
 
 ### What it does
 
-Given an instruction such as *"Locate the apple and put it in the microwave"*, the model receives only ego-centric images, and alternates between **thinking** and **acting** for dozens of turns:
+Embodied-Reasoner is an embodied reasoning model: given an instruction such as *"Locate the apple and put it in the microwave"*, it sees only ego-centric images and alternates between **thinking** and **acting** for dozens of turns until the physical goal is reached.
 
-- **👉 Deep reasoning** — analysis, spatial reasoning, reflection, planning, and verification, kept coherent across a whole episode.
-- **👉 Interleaved multimodal processing** — long image–text interleaved histories, not one-shot perception.
-- **👉 Environmental interaction** — autonomously observes, navigates, opens containers, and finds objects that are not visible at the start.
+- **👉 Long-horizon task planning** — decomposes an instruction into a sequence of navigation and manipulation steps, and keeps that plan coherent across a whole episode.
+- **👉 Environment-state reasoning** — tracks where it has been, what each container holds, and where a still-unseen object is most likely to be, from a long interleaved image–text history.
+- **👉 Reflection on its own behaviour** — notices details it missed, rules out places it has already checked, and revises the plan instead of repeating a failed search.
+- **👉 Interactive exploration** — autonomously observes, navigates, opens containers, and manipulates or transports objects that are not visible at the start.
 - **👉 Task and Trajectory Engine** — automatically synthesizes coherent *Observation–Thought–Action* trajectories over 107 indoor scenes, 2,100 interactive objects, and 2,600 containers.
 - **👉 Open data** — [9.3k trajectories, 64k first-person images, and 8M thought tokens](https://huggingface.co/datasets/zwq2018/embodied_reasoner) on Hugging Face.
 
 Training is a three-stage recipe — **imitation learning → self-exploration tuning → self-correction (reflection) tuning** — producing the Embodied-Interactor / Explorer / Reasoner checkpoints in 7B and 2B sizes.
 
-### Results
-
-Evaluated on 809 interactive test cases across 12 novel scenarios (success rate, search efficiency, and task completeness, all higher-is-better):
-
-| Model | Success Rate | Search Efficiency | Task Completeness |
-|---|---:|---:|---:|
-| GPT-4o | 66.67% | 41.68% | 79.07% |
-| Claude-3.7-Sonnet-thinking | 67.70% | 37.95% | 78.63% |
-| GPT-o1 | 71.73% | 43.06% | 82.49% |
-| Embodied-Interactor-7B *(stage 1)* | 25.46% | 24.75% | 53.67% |
-| Embodied-Explorer-7B *(stage 2)* | 65.39% | 46.25% | 77.73% |
-| **Embodied-Reasoner-7B** *(stage 3)* | **80.96%** | **55.07%** | **86.30%** |
-
-Embodied-Reasoner exceeds OpenAI o1 by **+9%**, o3-mini by **+24%**, and Claude-3.7 by **+13%** success rate, with far fewer repeated searches and logical inconsistencies — and the advantage grows on the longest-horizon tasks. Real-world testing on a physical scene confirms the same behaviour: the model rules out surfaces it has already checked before opening the right cabinet, while o3-mini heads to the microwave before it has even found the coffee.
-
-<p align="center">
-  <img src="embodied_reasoner/assets/real_example.jpg" width="72%" alt="Real-world example">
-</p>
-
-➡️ **[Full README, training, evaluation, and data engine →](./embodied_reasoner/)**
+➡️ **[Full README, benchmarks, training, evaluation, and data engine →](./embodied_reasoner/)**
 
 ---
 
@@ -118,7 +100,7 @@ Embodied-Reasoner exceeds OpenAI o1 by **+9%**, o3-mini by **+24%**, and Claude-
 
 https://github.com/user-attachments/assets/695b83b4-7672-4d77-ac5b-dc455258e036
 
-<p align="center"><em>Model architecture and experimental results, plus zero-shot deployment on a Unitree Go2 quadruped.</em></p>
+<p align="center"><em>Method overview and zero-shot deployment on a Unitree Go2 quadruped.</em></p>
 
 ### What it does
 
@@ -131,24 +113,11 @@ Instead of asking a VLM to regress 3D coordinates or emit long strings of atomic
 | Component | Mechanism | Effect |
 |---|---|---|
 | **Point** | Predict a 2D pixel waypoint, then project it to 3D through depth | Reuses the VLM's pretrained visual grounding; leaves metric geometry to deterministic modules |
-| **Think** | Trigger chain-of-thought only at critical topological nodes | Reasoning on ~26% of steps matches dense CoT quality |
+| **Think** | Trigger chain-of-thought only at critical topological nodes | Concentrates computation on crossroads, doorways, and target-relevant decisions |
 | **Memorize** | Anchor-Trajectory Memory: keep critical states as anchors, compress the rest into Space-Time Indicators | Preserves long-horizon topology without storing every frame |
 | **Align** | Two-Level GRPO combining local action and global trajectory advantages | Closes the credit-assignment gap between final success and individual decisions |
 
-### Results
-
-Validation-unseen splits (NE lower is better; OS / SR / SPL / nDTW higher is better):
-
-| Benchmark | Metric | Best prior* | **Embodied-Navigator** |
-|---|---|---:|---:|
-| R2R-CE | SR / SPL / NE | 64.3 / 58.5 / 4.05 | **66.2 / 58.8 / 3.85** |
-| RxR-CE | SR / SPL / nDTW | 64.4 / 56.2 / 70.0 | **65.7 / 56.9 / 72.4** |
-| Long-horizon subset (>12.5 m) | SR | 41.9 | **49.8** |
-| Real world, zero-shot (100 trials) | SR | 53.0 | **60.0** |
-
-<sub>*Best value per metric among StreamVLN, NavFoM, and DualVLN; see the [project README](./embodied_navigator/) for the full tables and ablations.</sub>
-
-RL alignment lifts R2R-CE success from **55.7% (SFT only) to 66.2%**, while the policy needs only **~9 interactions per trajectory** and **16.6 s per task** on a single A800 — less than half the inference time of StreamVLN (37.5 s) or DualVLN (41.5 s). Real-robot deployment on the Unitree Go2 requires no robot-specific fine-tuning.
+The policy is trained on R2R-CE and RxR-CE in Habitat and deployed zero-shot on a Unitree Go2 quadruped — no robot-specific fine-tuning.
 
 ### 📺 Real-world deployment videos
 
@@ -163,7 +132,7 @@ Six representative zero-shot trials, drawn from the 100-episode real-world evalu
 | Laboratory test area | [playground.mp4](./embodied_navigator/docs/img/playground.mp4) | Indoor lab navigation |
 | Outdoors (**failure case**) | [outdoors-failed.mp4](./embodied_navigator/docs/img/outdoors-failed.mp4) | Target leaves all camera views; the policy stops prematurely |
 
-➡️ **[Full README, training, evaluation, and robot serving →](./embodied_navigator/)**
+➡️ **[Full README, benchmarks, training, evaluation, and robot serving →](./embodied_navigator/)**
 
 ---
 
@@ -268,17 +237,6 @@ If you find this series useful, please cite the corresponding paper.
 ```
 
 </details>
-
-## 🌐 More from ZJU-OmniAI
-
-| Repository | About |
-|---|---|
-| [Data-Copilot](https://github.com/ZJU-OmniAI/Data-Copilot) | Bridging billions of data and humans with autonomous workflow |
-| [Agent-Pro](https://github.com/ZJU-OmniAI/Agent-Pro) | Learning to evolve via policy-level reflection and optimization |
-| [GFT](https://github.com/ZJU-OmniAI/GFT) | From imitation to reward fine-tuning with unbiased group advantage |
-| [vla-corrector](https://github.com/ZJU-OmniAI/vla-corrector) | Lightweight detect-and-correct inference for VLA models |
-| [OMNEX-VL](https://github.com/ZJU-OmniAI/OMNEX-VL) | Hallucination-resistant MLLMs via caption feedback |
-| [Awesome-Closed-Loop-VLA](https://github.com/ZJU-OmniAI/Awesome-Closed-Loop-VLA) · [Awesome-World-Model](https://github.com/ZJU-OmniAI/Awesome-World-Model) | Curated reading lists |
 
 ## 🙏 Acknowledgements
 
