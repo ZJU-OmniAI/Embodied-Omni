@@ -1,0 +1,1175 @@
+[
+    {
+        "AlarmClock": [
+            "Box",
+            "Dresser",
+            "Desk",
+            "SideTable",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "CounterTop",
+            "Shelf"
+        ]
+    },
+    {
+        "AluminumFoil": []
+    },
+    {
+        "Apple": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Microwave",
+            "Fridge",
+            "Plate",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "Desk",
+            "CounterTop",
+            "GarbageCan",
+            "Dresser"
+        ]
+    },
+    {
+        "AppleSliced*": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            " Microwave",
+            "Fridge",
+            "Plate",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "Desk",
+            "CounterTop",
+            "GarbageCan",
+            "Dresser"
+        ]
+    },
+    {
+        "ArmChair": []
+    },
+    {
+        "BaseballBat": [
+            "Bed",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "Desk",
+            "CounterTop"
+        ]
+    },
+    {
+        "BasketBall": [
+            "Sofa",
+            "ArmChair",
+            "Dresser",
+            "Desk",
+            "Bed",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop"
+        ]
+    },
+    {
+        "Bathtub": []
+    },
+    {
+        "BathtubBasin": []
+    },
+    {
+        "Bed": []
+    },
+    {
+        "Blinds": []
+    },
+    {
+        "Book": [
+            "Sofa",
+            "ArmChair",
+            "Box",
+            "Ottoman",
+            "Dresser",
+            "Desk",
+            "Bed",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer"
+        ]
+    },
+    {
+        "Boots": []
+    },
+    {
+        "Bottle": [
+            "Fridge",
+            "Box",
+            "Dresser",
+            "Desk",
+            "Sink",
+            "SinkBasin",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "GarbageCan"
+        ]
+    },
+    {
+        "Bowl": [
+            "Microwave",
+            "Fridge",
+            "Dresser",
+            "Desk",
+            "Sink",
+            "SinkBasin",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf"
+        ]
+    },
+    {
+        "Box": [
+            "Sofa",
+            "ArmChair",
+            "Dresser",
+            "Desk",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Ottoman"
+        ]
+    },
+    {
+        "Bread": [
+            "Microwave",
+            "Fridge",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "Desk",
+            "CounterTop",
+            "GarbageCan",
+            "Plate"
+        ]
+    },
+    {
+        "BreadSliced": [
+            "Microwave",
+            "Fridge",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "Desk",
+            "CounterTop",
+            "GarbageCan",
+            "Toaster",
+            "Plate"
+        ]
+    },
+    {
+        "ButterKnife": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Mug",
+            "Plate",
+            "Cup",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "Desk",
+            "CounterTop",
+            "Drawer"
+        ]
+    },
+    {
+        "Cabinet": []
+    },
+    {
+        "Candle": [
+            "Box",
+            "Dresser",
+            "Desk",
+            "Toilet",
+            "Cart",
+            "Bathtub",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer"
+        ]
+    },
+    {
+        "CD": [
+            "Box",
+            "Ottoman",
+            "Dresser",
+            "Desk",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "GarbageCan",
+            "Safe",
+            "Sofa",
+            "ArmChair"
+        ]
+    },
+    {
+        "CellPhone": [
+            "Sofa",
+            "ArmChair",
+            "Box",
+            "Ottoman",
+            "Dresser",
+            "Desk",
+            "Bed",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "Safe"
+        ]
+    },
+    {
+        "Chair": []
+    },
+    {
+        "Cloth": [
+            "Sofa",
+            "ArmChair",
+            "Box",
+            "Ottoman",
+            "Dresser",
+            "LaundryHamper",
+            "Desk",
+            "Toilet",
+            "Cart",
+            "BathtubBasin",
+            "Bathtub",
+            "Sink",
+            "SinkBasin",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "GarbageCan"
+        ]
+    },
+    {
+        "CoffeeMachine": []
+    },
+    {
+        "CoffeeTable": []
+    },
+    {
+        "CounterTop": []
+    },
+    {
+        "CreditCard": [
+            "Sofa",
+            "ArmChair",
+            "Box",
+            "Ottoman",
+            "Dresser",
+            "Desk",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "Shelf"
+        ]
+    },
+    {
+        "Cup": [
+            "Microwave",
+            "Fridge",
+            "Dresser",
+            "Desk",
+            "Sink",
+            "SinkBasin",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf"
+        ]
+    },
+    {
+        "Curtains": []
+    },
+    {
+        "Desk": []
+    },
+    {
+        "DeskLamp": []
+    },
+    {
+        "Desktop": []
+    },
+    {
+        "DiningTable": []
+    },
+    {
+        "DishSponge": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Plate",
+            "Box",
+            "Toilet",
+            "Cart",
+            "Cart",
+            "BathtubBasin",
+            "Bathtub",
+            "Sink",
+            "SinkBasin",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "GarbageCan"
+        ]
+    },
+    {
+        "DogBed": []
+    },
+    {
+        "Drawer": []
+    },
+    {
+        "Dresser": []
+    },
+    {
+        "Dumbbell": []
+    },
+    {
+        "Egg": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Microwave",
+            "Fridge",
+            "Plate",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "GarbageCan"
+        ]
+    },
+    {
+        "EggCracked": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Microwave",
+            "Fridge",
+            "Plate",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "GarbageCan"
+        ]
+    },
+    {
+        "Faucet": []
+    },
+    {
+        "Floor": []
+    },
+    {
+        "FloorLamp": []
+    },
+    {
+        "Footstool": []
+    },
+    {
+        "Fork": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Mug",
+            "Plate",
+            "Cup",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Drawer"
+        ]
+    },
+    {
+        "Fridge": []
+    },
+    {
+        "GarbageBag": []
+    },
+    {
+        "GarbageCan": []
+    },
+    {
+        "HandTowel": [
+            "HandTowelHolder"
+        ]
+    },
+    {
+        "HandTowelHolder": []
+    },
+    {
+        "HousePlant": []
+    },
+    {
+        "Kettle": [
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Sink",
+            "SinkBasin",
+            "Cabinet",
+            "StoveBurner",
+            "Shelf"
+        ]
+    },
+    {
+        "KeyChain": [
+            "Sofa",
+            "ArmChair",
+            "Box",
+            "Ottoman",
+            "Dresser",
+            "Desk",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "Safe"
+        ]
+    },
+    {
+        "Knife": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Mug",
+            "Plate",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Drawer"
+        ]
+    },
+    {
+        "Ladle": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Plate",
+            "Sink",
+            "SinkBasin",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Drawer"
+        ]
+    },
+    {
+        "Laptop": [
+            "Sofa",
+            "ArmChair",
+            "Ottoman",
+            "Dresser",
+            "Desk",
+            "Bed",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop"
+        ]
+    },
+    {
+        "LaundryHamper": []
+    },
+    {
+        "Lettuce": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Fridge",
+            "Plate",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "GarbageCan"
+        ]
+    },
+    {
+        "LettuceSliced*": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Fridge",
+            "Plate",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "GarbageCan"
+        ]
+    },
+    {
+        "LightSwitch": []
+    },
+    {
+        "Microwave": []
+    },
+    {
+        "Mirror": []
+    },
+    {
+        "Mug": [
+            "SinkBasin",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf"
+        ]
+    },
+    {
+        "Newspaper": [
+            "Sofa",
+            "ArmChair",
+            "Ottoman",
+            "Dresser",
+            "Desk",
+            "Bed",
+            "Toilet",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "GarbageCan"
+        ]
+    },
+    {
+        "Ottoman": []
+    },
+    {
+        "Painting": []
+    },
+    {
+        "Pan": [
+            "DiningTable",
+            "CounterTop",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "Sink",
+            "SinkBasin",
+            "Cabinet",
+            "StoveBurner",
+            "Fridge"
+        ]
+    },
+    {
+        "PaperTowelRoll": []
+    },
+    {
+        "Pen": [
+            "Mug",
+            "Box",
+            "Dresser",
+            "Desk",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "GarbageCan"
+        ]
+    },
+    {
+        "Pencil": [
+            "Mug",
+            "Box",
+            "Dresser",
+            "Desk",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "GarbageCan"
+        ]
+    },
+    {
+        "PepperShaker": [
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Drawer",
+            "Cabinet",
+            "Shelf"
+        ]
+    },
+    {
+        "Pillow": [
+            "Sofa",
+            "ArmChair",
+            "Ottoman",
+            "Bed"
+        ]
+    },
+    {
+        "Plate": [
+            "Microwave",
+            "Fridge",
+            "Dresser",
+            "Desk",
+            "Sink",
+            "Sink",
+            "SinkBasin",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf"
+        ]
+    },
+    {
+        "Plunger": [
+            "Cart",
+            "Cabinet"
+        ]
+    },
+    {
+        "Poster": []
+    },
+    {
+        "Pot": [
+            "StoveBurner",
+            "Fridge",
+            "Sink",
+            "SinkBasin",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf"
+        ]
+    },
+    {
+        "Potato": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Microwave",
+            "Fridge",
+            "Plate",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "GarbageCan"
+        ]
+    },
+    {
+        "PotatoSliced*": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Microwave",
+            "Fridge",
+            "Plate",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "GarbageCan"
+        ]
+    },
+    {
+        "RemoteControl": [
+            "Sofa",
+            "ArmChair",
+            "Box",
+            "Ottoman",
+            "Dresser",
+            "Desk",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer"
+        ]
+    },
+    {
+        "RoomDecor": []
+    },
+    {
+        "Safe": []
+    },
+    {
+        "SaltShaker": [
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Drawer",
+            "Cabinet",
+            "Shelf"
+        ]
+    },
+    {
+        "ScrubBrush": []
+    },
+    {
+        "Shelf": []
+    },
+    {
+        "ShelvingUnit": []
+    },
+    {
+        "ShowerCurtain": []
+    },
+    {
+        "ShowerDoor": []
+    },
+    {
+        "ShowerGlass": []
+    },
+    {
+        "ShowerHead": []
+    },
+    {
+        "SideTable": []
+    },
+    {
+        "Sink": []
+    },
+    {
+        "SinkBasin": []
+    },
+    {
+        "SoapBar": [
+            "Toilet",
+            "Cart",
+            "Bathtub",
+            "BathtubBasin",
+            "Sink",
+            "SinkBasin",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "GarbageCan"
+        ]
+    },
+    {
+        "SoapBottle": [
+            "Dresser",
+            "Desk",
+            "Toilet",
+            "Cart",
+            "Bathtub",
+            "Sink",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "GarbageCan"
+        ]
+    },
+    {
+        "Sofa": []
+    },
+    {
+        "Spatula": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Plate",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Drawer"
+        ]
+    },
+    {
+        "Spoon": [
+            "Pot",
+            "Pan",
+            "Bowl",
+            "Mug",
+            "Plate",
+            "Cup",
+            "Sink",
+            "SinkBasin",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Drawer"
+        ]
+    },
+    {
+        "SprayBottle": [
+            "Dresser",
+            "Desk",
+            "Toilet",
+            "Cart",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "GarbageCan"
+        ]
+    },
+    {
+        "Statue": [
+            "Box",
+            "Dresser",
+            "Desk",
+            "Cart",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Safe"
+        ]
+    },
+    {
+        "Stool": []
+    },
+    {
+        "Stool": []
+    },
+    {
+        "StoveKnob": []
+    },
+    {
+        "TableTopDecor": []
+    },
+    {
+        "TargetCircle": []
+    },
+    {
+        "TeddyBear": [
+            "Bed",
+            "Sofa",
+            "ArmChair",
+            "Ottoman",
+            "Dresser",
+            "Desk",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Safe"
+        ]
+    },
+    {
+        "Television": []
+    },
+    {
+        "TennisRacket": [
+            "Dresser",
+            "Desk",
+            "Bed",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop"
+        ]
+    },
+    {
+        "TissueBox ": [
+            "Box",
+            "Dresser",
+            "Desk",
+            "Toilet",
+            "Cart",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "GarbageCan"
+        ]
+    },
+    {
+        "Toaster": []
+    },
+    {
+        "Toilet": []
+    },
+    {
+        "ToiletPaper": [
+            "Dresser",
+            "Desk",
+            "Toilet",
+            "ToiletPaperHanger",
+            "Cart",
+            "Bathtub",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "GarbageCan"
+        ]
+    },
+    {
+        "ToiletPaperHanger": []
+    },
+    {
+        "Tomato": [
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Sink",
+            "SinkBasin",
+            "Pot",
+            "Bowl",
+            "Fridge",
+            "GarbageCan",
+            "Plate"
+        ]
+    },
+    {
+        "TomatoSliced*": [
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Sink",
+            "SinkBasin",
+            "Pot",
+            "Bowl",
+            "Fridge",
+            "GarbageCan",
+            "Plate"
+        ]
+    },
+    {
+        "Towel ": [
+            "TowelHolder"
+        ]
+    },
+    {
+        "TowelHolder": []
+    },
+    {
+        "TVStand": []
+    },
+    {
+        "TVStand": []
+    },
+    {
+        "Vase": [
+            "Box",
+            "Dresser",
+            "Desk",
+            "Cart",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Safe"
+        ]
+    },
+    {
+        "Watch": [
+            "Box",
+            "Dresser",
+            "Desk",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer",
+            "Safe"
+        ]
+    },
+    {
+        "WateringCan": [
+            "Dresser",
+            "Desk",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "Drawer"
+        ]
+    },
+    {
+        "Window": []
+    },
+    {
+        "WineBottle": [
+            "Fridge",
+            "Dresser",
+            "Desk",
+            "Cabinet",
+            "DiningTable",
+            "TVStand",
+            "CoffeeTable",
+            "SideTable",
+            "CounterTop",
+            "Shelf",
+            "GarbageCan"
+        ]
+    }
+]

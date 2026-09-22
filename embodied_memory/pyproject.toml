@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "embodied-memorizer"
+version = "0.1.0"
+description = "Embodied-Memorizer memory system and EMem-Bench construction and evaluation"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "Pillow>=9", "jsonschema>=4", "tqdm>=4"]
+
+[project.optional-dependencies]
+sim = ["ai2thor==5.0.0", "prior>=1.0.3"]
+embeddings = ["sentence-transformers>=3", "openai>=1"]
+hub = ["huggingface-hub>=0.24"]
+dev = ["ruff>=0.9", "build>=1"]
+
+[project.scripts]
+emem-bench = "emem_bench.cli:main"
+emem = "embodied_memorizer.demo:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"emem_bench.construction" = ["assets/*.json"]
+
+[tool.ruff]
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["F821", "F822", "F823"]

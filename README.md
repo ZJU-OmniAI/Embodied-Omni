@@ -15,7 +15,7 @@ Long-horizon task planning · environment-state reasoning · self-reflection · 
 <a href="https://aclanthology.org/2026.acl-long.1910/"><img alt="ACL 2026" src="https://img.shields.io/badge/ACL_2026-Main-EE3F24"></a>
 <a href="https://huggingface.co/datasets/zwq2018/embodied_reasoner"><img alt="Hugging Face" src="https://img.shields.io/badge/Data_and_Models-Hugging_Face-FFD21E?logo=huggingface&amp;logoColor=FFD21E"></a>
 
-**[Embodied-Reasoner](#-embodied-reasoner) · [Embodied-Navigator](#-embodied-navigator) · [Quick start](#-quick-start) · [Citation](#-citation)**
+**[Embodied-Reasoner](#-embodied-reasoner) · [Embodied-Navigator](#-embodied-navigator) · [EmbodiedMemory-Bench](#-embodiedmemory-bench) · [Quick start](#-quick-start) · [Citation](#-citation)**
 
 </div>
 
@@ -29,12 +29,13 @@ Long-horizon task planning · environment-state reasoning · self-reflection · 
 
 Embodied intelligence needs more than a strong VLM: an agent has to *keep interacting* with the world, *remember* what it has already seen, *reason* about where things are, and *correct itself* when a plan fails. **Embodied-Omni** collects our work on exactly this loop, and releases it end to end — data engines, training recipes, evaluation harnesses, and real-robot deployment code.
 
-Two projects live here today, covering the two halves of physical-world competence:
+Three projects live here today, covering complementary parts of physical-world competence:
 
 | Project | One-line summary | Embodiment & benchmark | Status |
 |---|---|---|---|
 | 🔍 **[Embodied-Reasoner](./embodied_reasoner/)** | An **embodied reasoning model** for the physical world: it plans long-horizon tasks, reasons about the state of its environment, and reflects on its own actions while it keeps interacting. | Indoor agent in AI2-THOR (107 scenes) | **ACL 2026 Main** ✅ |
 | 🧭 **[Embodied-Navigator](./embodied_navigator/)** | A vision-language **navigation** framework: the VLM points at a pixel instead of regressing coordinates, thinks only at critical nodes, compresses history into anchors, and is aligned with Two-Level GRPO. | Habitat R2R-CE / RxR-CE + Unitree Go2 quadruped | <a href="https://arxiv.org/abs/2608.17512"><img alt="arXiv" src="https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv&logoColor=B31B1B"></a> |
+| 🧠 **[EmbodiedMemory-Bench](./embodied_memory/)** | A benchmark for **embodied memory**: agents must retain observations, update world state, learn from interaction outcomes, and transfer experience across later tasks. | AI2-THOR & ProcTHOR · 2,554 episodes | **Open release** |
 
 Common design principles across the series:
 
@@ -132,6 +133,22 @@ Six representative zero-shot trials, drawn from the 100-episode real-world evalu
 
 ---
 
+## 🧠 EmbodiedMemory-Bench
+
+<div align="center">
+
+**Benchmarking Embodied Memory for Long-Horizon Embodied Tasks**
+
+[📄 Paper](https://zju-omniai.github.io/EmbodiedMemoryBench/assets/paper.pdf) · [🌐 Project page](https://zju-omniai.github.io/EmbodiedMemoryBench/) · [🤗 Dataset](https://huggingface.co/datasets/lzLiang/EmbodiedMemoryBench) · [📂 Code](./embodied_memory/) · [🔗 Standalone repo](https://github.com/ZJU-OmniAI/EmbodiedMemoryBench)
+
+</div>
+
+EmbodiedMemory-Bench evaluates whether an agent can build, maintain, and use memory while interacting with a changing environment. It contains **2,554 executable episodes** across four challenges: passive observation, dynamic tracking, interaction-derived state, and experience generalization.
+
+The release includes a simulator-grounded construction pipeline, a transparent Embodied-Memorizer baseline, and an evaluation runner. The complete benchmark data is available on Hugging Face, while this repository contains the public implementation and reproducible interfaces.
+
+➡️ **[Full README, benchmark format, memory system, evaluation, and data access →](./embodied_memory/)**
+
 ## 📂 Repository layout
 
 Each project is self-contained in its own top-level directory, with its own README, requirements, and scripts.
@@ -153,6 +170,10 @@ Embodied-Omni/
 │   ├── src/server/           # FastAPI + ROS2 service for the Unitree Go2
 │   ├── config/ scripts/      # Experiment configs and launch scripts
 │   └── docs/                 # Project homepage, figures, deployment videos
+├── embodied_memory/          # Embodied memory benchmark and memory system
+│   ├── src/                  # EMem-Bench and Embodied-Memorizer packages
+│   ├── assets/               # Paper and project figures
+│   └── pyproject.toml        # Package and optional dependencies
 └── assets/                   # Shared repository assets
 ```
 
@@ -167,6 +188,9 @@ cd embodied_reasoner && cat README.md
 
 # Vision-language navigation (Habitat / real robot)
 cd ../embodied_navigator && cat README.md
+
+# Embodied memory benchmark (AI2-THOR / ProcTHOR)
+cd ../embodied_memory && cat README.md
 ```
 
 Each project ships its own environment setup; do not mix them in one conda environment. Paths inside a project README are relative to that project directory.
@@ -174,6 +198,7 @@ Each project ships its own environment setup; do not mix them in one conda envir
 ## 📰 News
 
 - **2026.08** — Embodied-Navigator joins the repository; `zwq2018/embodied_reasoner` becomes **`ZJU-OmniAI/Embodied-Omni`**, the home of the whole series.
+- **2026.09** — EmbodiedMemory-Bench joins the repository with 2,554 episodes, the Embodied-Memorizer baseline, and its public evaluation code.
 - **2026.04** — Embodied-Reasoner accepted to **ACL 2026 Main Conference**.
 - **2026.01** — [Invited talk @ 视觉语言导航](https://www.bilibili.com/video/BV149cjz5Es5/).
 - **2025.05** — [Invited talk @ 智猩猩](https://www.bilibili.com/video/BV1Cs7Hz4ETk).
@@ -238,9 +263,23 @@ If you find this series useful, please cite the corresponding paper.
 
 </details>
 
+<details>
+<summary><b>EmbodiedMemory-Bench</b></summary>
+
+```bibtex
+@inproceedings{embodiedmemorybench,
+    title     = {EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks},
+    author    = {Liang, Lizhou and Zhong, Xinyu and Pan, Miao and Zhou, Xiaohe and Liu, Xuanyu and Li, Qinfeng and Li, Peng and Chen, Jintao and Zhang, Xuhong and Zhang, Wenqi},
+    booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+    year      = {2027}
+}
+```
+
+</details>
+
 ## 🙏 Acknowledgements
 
-Embodied-Reasoner builds on [AI2-THOR](https://github.com/allenai/ai2thor) for simulation and [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) for training. Embodied-Navigator builds on [Habitat-Lab](https://github.com/facebookresearch/habitat-lab) and [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL). Thanks to all of these projects.
+Embodied-Reasoner builds on [AI2-THOR](https://github.com/allenai/ai2thor) for simulation and [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) for training. Embodied-Navigator builds on [Habitat-Lab](https://github.com/facebookresearch/habitat-lab) and [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL). EmbodiedMemory-Bench builds on [AI2-THOR](https://github.com/allenai/ai2thor) and [ProcTHOR](https://github.com/allenai/procthor) for simulator-grounded benchmark construction. Thanks to all of these projects.
 
 ## 📬 Contact
 

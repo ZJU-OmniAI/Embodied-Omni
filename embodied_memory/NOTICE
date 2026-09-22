@@ -1,0 +1,10 @@
+This code release is curated from the authors' EmbodiedMemorizerBench and
+MemoryModule research sources. It retains core algorithms and executable task
+generators while replacing machine-specific launchers with a portable interface.
+
+The source code is licensed under the Apache License, Version 2.0.
+See LICENSE for the full terms.
+
+AI2-THOR, ProcTHOR/prior, embedding models, model checkpoints, and Benchmark
+datasets are external dependencies used by the public interfaces. Preserve
+their upstream notices and review their respective terms when distributing them.

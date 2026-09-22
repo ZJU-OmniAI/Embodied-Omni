@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+.env
+.env.*
+data/
+datasets/
+weights/
+checkpoints/
+outputs/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.zip
+*.tar.gz
+.DS_Store
+
+# Original raster icon; README uses the converted SVG.
+assets/EMem_icon.png
