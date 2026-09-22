@@ -207,8 +207,8 @@ Each project ships its own environment setup; do not mix them in one conda envir
 
 ## 📰 News
 
-- **2026.08** — Embodied-Navigator joins the repository; `zwq2018/embodied_reasoner` becomes **`ZJU-OmniAI/Embodied-Omni`**, the home of the whole series.
 - **2026.09** — EmbodiedMemory-Bench joins the repository with 2,554 episodes, the Embodied-Memorizer baseline, and its public evaluation code.
+- **2026.08** — Embodied-Navigator joins the repository; `zwq2018/embodied_reasoner` becomes **`ZJU-OmniAI/Embodied-Omni`**, the home of the whole series.
 - **2026.04** — Embodied-Reasoner accepted to **ACL 2026 Main Conference**.
 - **2026.01** — [Invited talk @ 视觉语言导航](https://www.bilibili.com/video/BV149cjz5Es5/).
 - **2025.05** — [Invited talk @ 智猩猩](https://www.bilibili.com/video/BV1Cs7Hz4ETk).
