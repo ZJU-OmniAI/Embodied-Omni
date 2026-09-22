@@ -143,6 +143,16 @@ Six representative zero-shot trials, drawn from the 100-episode real-world evalu
 
 </div>
 
+### 🎬 Demo
+
+https://github.com/user-attachments/assets/95da27b6-3bf1-466d-99b7-19d8ee21d482
+
+<p align="center"><em>EmbodiedMemory-Bench evaluates whether an agent can retain, update, and use embodied memory across long-horizon interactive tasks.</em></p>
+
+<p align="center">
+  <img src="embodied_memory/assets/task-overview.png" width="92%" alt="EmbodiedMemory-Bench task overview">
+</p>
+
 EmbodiedMemory-Bench evaluates whether an agent can build, maintain, and use memory while interacting with a changing environment. It contains **2,554 executable episodes** across four challenges: passive observation, dynamic tracking, interaction-derived state, and experience generalization.
 
 The release includes a simulator-grounded construction pipeline, a transparent Embodied-Memorizer baseline, and an evaluation runner. The complete benchmark data is available on Hugging Face, while this repository contains the public implementation and reproducible interfaces.
