@@ -145,7 +145,9 @@ Six representative zero-shot trials, drawn from the 100-episode real-world evalu
 
 ### 🎬 Demo
 
-https://github.com/user-attachments/assets/95da27b6-3bf1-466d-99b7-19d8ee21d482
+[![Watch the English overview video](embodied_memory/assets/video-poster-en.jpg)](https://zju-omniai.github.io/EmbodiedMemoryBench/assets/reference_video_en.mp4)
+
+[▶ Watch the English overview video](https://zju-omniai.github.io/EmbodiedMemoryBench/assets/reference_video_en.mp4)
 
 <p align="center"><em>EmbodiedMemory-Bench evaluates whether an agent can retain, update, and use embodied memory across long-horizon interactive tasks.</em></p>
 

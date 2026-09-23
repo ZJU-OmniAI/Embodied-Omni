@@ -41,7 +41,8 @@ Long-horizon embodied agents must remember what they saw, what they changed, and
 The benchmark contains **2,554 episodes** across four complementary memory challenges. This repository provides the compact public implementation for benchmark construction, memory-system experiments, and evaluation. The data and model interfaces are documented below.
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/95da27b6-3bf1-466d-99b7-19d8ee21d482" controls width="80%"></video>
+  <a href="https://zju-omniai.github.io/EmbodiedMemoryBench/assets/reference_video_en.mp4"><img src="assets/video-poster-en.jpg" alt="Watch the English overview video" width="80%"></a>
+  <p><a href="https://zju-omniai.github.io/EmbodiedMemoryBench/assets/reference_video_en.mp4">▶ Watch the English overview video</a></p>
 </div>
 
 ## Benchmark
