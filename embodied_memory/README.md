@@ -13,7 +13,7 @@
 <p><sup>1</sup> Zhejiang University · <sup>2</sup> Central South University · <sup>3</sup> Institute of Software, Chinese Academy of Sciences</p>
 
 <p>
-  <a href="https://zju-omniai.github.io/EmbodiedMemoryBench/assets/paper.pdf"><img src="https://img.shields.io/badge/PAPER-PDF-BB2424?style=for-the-badge" alt="Paper PDF"></a>
+  <a href="https://arxiv.org/abs/2609.28236"><img src="https://img.shields.io/badge/PAPER-arXiv%3A2609.28236-BB2424?style=for-the-badge" alt="Paper: arXiv 2609.28236"></a>
   <a href="https://zju-omniai.github.io/EmbodiedMemoryBench/"><img src="https://img.shields.io/badge/PROJECT%20PAGE-EMEM--BENCH-176B70?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project page"></a>
   <a href="https://huggingface.co/datasets/lzLiang/EmbodiedMemoryBench"><img src="https://img.shields.io/badge/DATASET-HUGGING%20FACE-F2B632?style=for-the-badge&logo=huggingface&logoColor=white" alt="Dataset on Hugging Face"></a>
   <a href="https://github.com/ZJU-OmniAI/Embodied-Omni/tree/main/embodied_memory"><img src="https://img.shields.io/badge/GITHUB-REPOSITORY-202A33?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repository"></a>
@@ -189,11 +189,14 @@ EmbodiedMemoryBench/
 If you use EMem-Bench or Embodied-Memorizer, please cite the accompanying paper.
 
 ```bibtex
-@inproceedings{embodiedmemorybench,
-  title     = {EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks},
-  author    = {Liang, Lizhou and Zhong, Xinyu and Pan, Miao and Zhou, Xiaohe and Liu, Xuanyu and Li, Qinfeng and Li, Peng and Chen, Jintao and Zhang, Xuhong and Zhang, Wenqi},
-  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
-  year      = {2027}
+@misc{embodiedmemorybench,
+  title         = {EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks},
+  author        = {Liang, Lizhou and Zhong, Xinyu and Pan, Miao and Zhou, Xiaohe and Liu, Xuanyu and Li, Qinfeng and Li, Peng and Chen, Jintao and Zhang, Xuhong and Zhang, Wenqi},
+  year          = {2026},
+  eprint        = {2609.28236},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2609.28236}
 }
 ```
 

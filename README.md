@@ -35,7 +35,7 @@ Three projects live here today, covering complementary parts of physical-world c
 |---|---|---|---|
 | 🔍 **[Embodied-Reasoner](./embodied_reasoner/)** | An **embodied reasoning model** for the physical world: it plans long-horizon tasks, reasons about the state of its environment, and reflects on its own actions while it keeps interacting. | Indoor agent in AI2-THOR (107 scenes) | **ACL 2026 Main** ✅ |
 | 🧭 **[Embodied-Navigator](./embodied_navigator/)** | A vision-language **navigation** framework: the VLM points at a pixel instead of regressing coordinates, thinks only at critical nodes, compresses history into anchors, and is aligned with Two-Level GRPO. | Habitat R2R-CE / RxR-CE + Unitree Go2 quadruped | <a href="https://arxiv.org/abs/2608.17512"><img alt="arXiv" src="https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv&logoColor=B31B1B"></a> |
-| 🧠 **[EmbodiedMemory-Bench](./embodied_memory/)** | A benchmark for **embodied memory**: agents must retain observations, update world state, learn from interaction outcomes, and transfer experience across later tasks. | AI2-THOR & ProcTHOR · 2,554 episodes | **Open release** |
+| 🧠 **[EmbodiedMemory-Bench](./embodied_memory/)** | A benchmark for **embodied memory**: agents must retain observations, update world state, learn from interaction outcomes, and transfer experience across later tasks. | AI2-THOR & ProcTHOR · 2,554 episodes | <a href="https://arxiv.org/abs/2609.28236"><img alt="arXiv 2609.28236" src="https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv&logoColor=B31B1B"></a> |
 
 Common design principles across the series:
 
@@ -139,7 +139,7 @@ Six representative zero-shot trials, drawn from the 100-episode real-world evalu
 
 **Benchmarking Embodied Memory for Long-Horizon Embodied Tasks**
 
-[📄 Paper](https://zju-omniai.github.io/EmbodiedMemoryBench/assets/paper.pdf) · [🌐 Project page](https://zju-omniai.github.io/EmbodiedMemoryBench/) · [🤗 Dataset](https://huggingface.co/datasets/lzLiang/EmbodiedMemoryBench) · [📂 Code](./embodied_memory/) · [🔗 Standalone repo](https://github.com/ZJU-OmniAI/EmbodiedMemoryBench)
+[📄 Paper](https://arxiv.org/abs/2609.28236) · [🌐 Project page](https://zju-omniai.github.io/EmbodiedMemoryBench/) · [🤗 Dataset](https://huggingface.co/datasets/lzLiang/EmbodiedMemoryBench) · [📂 Code](./embodied_memory/) · [🔗 Standalone repo](https://github.com/ZJU-OmniAI/EmbodiedMemoryBench)
 
 </div>
 
@@ -277,11 +277,14 @@ If you find this series useful, please cite the corresponding paper.
 <summary><b>EmbodiedMemory-Bench</b></summary>
 
 ```bibtex
-@inproceedings{embodiedmemorybench,
-    title     = {EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks},
-    author    = {Liang, Lizhou and Zhong, Xinyu and Pan, Miao and Zhou, Xiaohe and Liu, Xuanyu and Li, Qinfeng and Li, Peng and Chen, Jintao and Zhang, Xuhong and Zhang, Wenqi},
-    booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
-    year      = {2027}
+@misc{embodiedmemorybench,
+  title         = {EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks},
+  author        = {Liang, Lizhou and Zhong, Xinyu and Pan, Miao and Zhou, Xiaohe and Liu, Xuanyu and Li, Qinfeng and Li, Peng and Chen, Jintao and Zhang, Xuhong and Zhang, Wenqi},
+  year          = {2026},
+  eprint        = {2609.28236},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2609.28236}
 }
 ```
 
