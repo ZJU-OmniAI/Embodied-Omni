@@ -139,7 +139,7 @@ Six representative zero-shot trials, drawn from the 100-episode real-world evalu
 
 **Benchmarking Embodied Memory for Long-Horizon Embodied Tasks**
 
-[📄 Paper](https://arxiv.org/abs/2609.28236) · [🌐 Project page](https://zju-omniai.github.io/EmbodiedMemoryBench/) · [🤗 Dataset](https://huggingface.co/datasets/lzLiang/EmbodiedMemoryBench) · [📂 Code](./embodied_memory/) · [🔗 Standalone repo](https://github.com/ZJU-OmniAI/EmbodiedMemoryBench)
+[📄 Paper](https://arxiv.org/abs/2609.28236) · [🌐 Project page](https://zju-omniai.github.io/EmbodiedMemoryBench/) · [🤗 Dataset](https://huggingface.co/datasets/lzLiang/EmbodiedMemoryBench) · [📂 Code](./embodied_memory/)
 
 </div>
 
