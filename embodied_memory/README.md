@@ -14,7 +14,7 @@
 
 <p>
   <a href="https://arxiv.org/abs/2609.28236"><img src="https://img.shields.io/badge/PAPER-arXiv%3A2609.28236-BB2424?style=for-the-badge" alt="Paper: arXiv 2609.28236"></a>
-  <a href="https://zju-omniai.github.io/EmbodiedMemoryBench/"><img src="https://img.shields.io/badge/PROJECT%20PAGE-EMEM--BENCH-176B70?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project page"></a>
+  <a href="https://zju-omniai.github.io/Embodied-Omni/EmbodiedMemoryBench/"><img src="https://img.shields.io/badge/PROJECT%20PAGE-EMEM--BENCH-176B70?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project page"></a>
   <a href="https://huggingface.co/datasets/lzLiang/EmbodiedMemoryBench"><img src="https://img.shields.io/badge/DATASET-HUGGING%20FACE-F2B632?style=for-the-badge&logo=huggingface&logoColor=white" alt="Dataset on Hugging Face"></a>
   <a href="https://github.com/ZJU-OmniAI/Embodied-Omni/tree/main/embodied_memory"><img src="https://img.shields.io/badge/GITHUB-REPOSITORY-202A33?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repository"></a>
 </p>
