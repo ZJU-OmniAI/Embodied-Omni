@@ -34,6 +34,16 @@
   <img src="assets/task-overview.png" alt="Overview of EmbodiedMemory-Bench" width="920">
 </p>
 
+<!-- hf-downloads:start -->
+## Hugging Face downloads
+
+All-time download counts as of **2026-10-10 (UTC+8)**. Each count links to the Hugging Face API (`downloadsAllTime`).
+
+| Resource | Type | All-time downloads |
+| :--- | :--- | ---: |
+| [EmbodiedMemoryBench](https://huggingface.co/datasets/lzLiang/EmbodiedMemoryBench) | Dataset | [27,545](https://huggingface.co/api/datasets/lzLiang/EmbodiedMemoryBench?expand%5B%5D=downloadsAllTime) |
+<!-- hf-downloads:end -->
+
 ## Overview
 
 Long-horizon embodied agents must remember what they saw, what they changed, and what they learned from interaction. **EmbodiedMemory-Bench (EMem-Bench)** evaluates this ability through executable tasks: an agent first receives multimodal interaction history, then must build or retrieve memory and act in the environment to complete a later task.

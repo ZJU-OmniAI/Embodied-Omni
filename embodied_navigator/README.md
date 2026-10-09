@@ -35,6 +35,16 @@ https://github.com/user-attachments/assets/695b83b4-7672-4d77-ac5b-dc455258e036
   <strong>Embodied-Navigator Overview: Model Architecture and Experimental Results</strong>
 </p>
 
+<!-- hf-downloads:start -->
+## Hugging Face downloads
+
+All-time download counts as of **2026-10-10 (UTC+8)**. Each count links to the Hugging Face API (`downloadsAllTime`).
+
+| Resource | Type | All-time downloads |
+| :--- | :--- | ---: |
+| [Embodied-Navigator-7B-GRPO](https://huggingface.co/UnderTides/Embodied-Navigator-7B-GRPO) | Model | [79](https://huggingface.co/api/models/UnderTides/Embodied-Navigator-7B-GRPO?expand%5B%5D=downloadsAllTime) |
+<!-- hf-downloads:end -->
+
 ## Overview
 
 Embodied-Navigator is a unified vision-language navigation framework that aligns high-level visual reasoning with low-level physical execution. Instead of asking a vision-language model (VLM) to regress 3D coordinates or emit long sequences of atomic actions, Embodied-Navigator lets the model act as a visual pointer: it selects a camera view and a 2D pixel waypoint, which is projected into 3D and executed by a low-level SLAM controller.

@@ -25,6 +25,20 @@ Long-horizon task planning · environment-state reasoning · self-reflection · 
 
 ---
 
+<!-- hf-downloads:start -->
+## Hugging Face downloads
+
+All-time download counts as of **2026-10-10 (UTC+8)**. Each count links to the Hugging Face API (`downloadsAllTime`).
+
+| Project | Resource | Type | All-time downloads |
+| :--- | :--- | :--- | ---: |
+| [Embodied-Reasoner](./embodied_reasoner/) | [embodied_reasoner](https://huggingface.co/datasets/zwq2018/embodied_reasoner) | Dataset | [18,093](https://huggingface.co/api/datasets/zwq2018/embodied_reasoner?expand%5B%5D=downloadsAllTime) |
+| [Embodied-Navigator](./embodied_navigator/) | [Embodied-Navigator-7B-GRPO](https://huggingface.co/UnderTides/Embodied-Navigator-7B-GRPO) | Model | [79](https://huggingface.co/api/models/UnderTides/Embodied-Navigator-7B-GRPO?expand%5B%5D=downloadsAllTime) |
+| [EmbodiedMemory-Bench](./embodied_memory/) | [EmbodiedMemoryBench](https://huggingface.co/datasets/lzLiang/EmbodiedMemoryBench) | Dataset | [27,545](https://huggingface.co/api/datasets/lzLiang/EmbodiedMemoryBench?expand%5B%5D=downloadsAllTime) |
+
+**Total: 45,717 downloads** — model: **79**; datasets: **45,638**.
+<!-- hf-downloads:end -->
+
 ## 🌏 Overview
 
 Embodied intelligence needs more than a strong VLM: an agent has to *keep interacting* with the world, *remember* what it has already seen, *reason* about where things are, and *correct itself* when a plan fails. **Embodied-Omni** collects our work on exactly this loop, and releases it end to end — data engines, training recipes, evaluation harnesses, and real-robot deployment code.

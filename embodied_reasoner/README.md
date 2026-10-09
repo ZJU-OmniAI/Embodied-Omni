@@ -29,6 +29,16 @@
 <br>
 </p>
 
+<!-- hf-downloads:start -->
+## Hugging Face downloads
+
+All-time download counts as of **2026-10-10 (UTC+8)**. Each count links to the Hugging Face API (`downloadsAllTime`).
+
+| Resource | Type | All-time downloads |
+| :--- | :--- | ---: |
+| [embodied_reasoner](https://huggingface.co/datasets/zwq2018/embodied_reasoner) | Dataset | [18,093](https://huggingface.co/api/datasets/zwq2018/embodied_reasoner?expand%5B%5D=downloadsAllTime) |
+<!-- hf-downloads:end -->
+
 ## Video 📷 📷
 <!-- <p align="center">
    <video width="640" controls autoplay muted>
