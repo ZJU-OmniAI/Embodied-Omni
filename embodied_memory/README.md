@@ -35,13 +35,15 @@
 </p>
 
 <!-- hf-downloads:start -->
+
 ## Hugging Face downloads
 
-All-time download counts as of **2026-10-10 (UTC+8)**. Each count links to the Hugging Face API (`downloadsAllTime`).
+Automatically updated all-time counts from Hugging Face. Badges are cached and may lag behind the source. [Refresh details](https://github.com/ZJU-OmniAI/.github/tree/main/metrics).
 
 | Resource | Type | All-time downloads |
 | :--- | :--- | ---: |
-| [EmbodiedMemoryBench](https://huggingface.co/datasets/lzLiang/EmbodiedMemoryBench) | Dataset | [27,545](https://huggingface.co/api/datasets/lzLiang/EmbodiedMemoryBench?expand%5B%5D=downloadsAllTime) |
+| [EmbodiedMemoryBench](https://huggingface.co/datasets/lzLiang/EmbodiedMemoryBench) | Dataset | [![downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2FlzLiang%2FEmbodiedMemoryBench%3Fexpand%255B%255D%3DdownloadsAllTime&query=%24.downloadsAllTime&label=downloads&color=FFD21E&logo=huggingface&cacheSeconds=300)](https://huggingface.co/datasets/lzLiang/EmbodiedMemoryBench) |
+
 <!-- hf-downloads:end -->
 
 ## Overview

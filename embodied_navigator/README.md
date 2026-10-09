@@ -36,13 +36,15 @@ https://github.com/user-attachments/assets/695b83b4-7672-4d77-ac5b-dc455258e036
 </p>
 
 <!-- hf-downloads:start -->
+
 ## Hugging Face downloads
 
-All-time download counts as of **2026-10-10 (UTC+8)**. Each count links to the Hugging Face API (`downloadsAllTime`).
+Automatically updated all-time counts from Hugging Face. Badges are cached and may lag behind the source. [Refresh details](https://github.com/ZJU-OmniAI/.github/tree/main/metrics).
 
 | Resource | Type | All-time downloads |
 | :--- | :--- | ---: |
-| [Embodied-Navigator-7B-GRPO](https://huggingface.co/UnderTides/Embodied-Navigator-7B-GRPO) | Model | [79](https://huggingface.co/api/models/UnderTides/Embodied-Navigator-7B-GRPO?expand%5B%5D=downloadsAllTime) |
+| [Embodied-Navigator-7B-GRPO](https://huggingface.co/UnderTides/Embodied-Navigator-7B-GRPO) | Model | [![downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FUnderTides%2FEmbodied-Navigator-7B-GRPO%3Fexpand%255B%255D%3DdownloadsAllTime&query=%24.downloadsAllTime&label=downloads&color=FFD21E&logo=huggingface&cacheSeconds=300)](https://huggingface.co/UnderTides/Embodied-Navigator-7B-GRPO) |
+
 <!-- hf-downloads:end -->
 
 ## Overview
