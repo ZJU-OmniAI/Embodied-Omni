@@ -36,6 +36,10 @@
 
 <!-- hf-downloads:start -->
 
+## Media Coverage · 媒体报道
+
+- **新智元 · 2026.10** — [具身智能体长程记忆：看见不等于记住，浙大提出具身记忆基准](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652735627&idx=3&sn=2195898b4588173b111e6ffc13732156)
+
 ## Hugging Face downloads
 
 Automatically updated all-time counts from Hugging Face. Badges are cached and may lag behind the source. [Refresh details](https://github.com/ZJU-OmniAI/.github/tree/main/metrics).
