@@ -14,6 +14,7 @@ Long-horizon task planning · environment-state reasoning · self-reflection · 
 <a href="https://arxiv.org/abs/2503.21696"><img alt="arXiv" src="https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv&logoColor=B31B1B"></a>
 <a href="https://aclanthology.org/2026.acl-long.1910/"><img alt="ACL 2026" src="https://img.shields.io/badge/ACL_2026-Main-EE3F24"></a>
 <a href="https://huggingface.co/datasets/zwq2018/embodied_reasoner"><img alt="Hugging Face" src="https://img.shields.io/badge/Data_and_Models-Hugging_Face-FFD21E?logo=huggingface&amp;logoColor=FFD21E"></a>
+[![Papers with Code: SOTA on RxR-CE](https://paperswithcode.co/api/v1/papers/2608.17512/leaderboard-badge.svg?eval=40727&live=1)](https://paperswithcode.co/api/v1/papers/2608.17512/leaderboard-badge-link?eval=40727)
 
 **[Embodied-Reasoner](#-embodied-reasoner) · [Embodied-Navigator](#-embodied-navigator) · [EmbodiedMemory-Bench](#-embodiedmemory-bench) · [Quick start](#-quick-start) · [Citation](#-citation)**
 
