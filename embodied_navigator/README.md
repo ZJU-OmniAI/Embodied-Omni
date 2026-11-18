@@ -35,6 +35,10 @@ https://github.com/user-attachments/assets/695b83b4-7672-4d77-ac5b-dc455258e036
   <strong>Embodied-Navigator Overview: Model Architecture and Experimental Results</strong>
 </p>
 
+## Media Coverage · 媒体报道
+
+- **新智英 · 2026.08** — [浙大&浙江人形提出高效具身导航模型，统一动作、思考、记忆与强化学习！](https://mp.weixin.qq.com/s?__biz=MzE5MTA0NzYxMQ==&mid=2247517546&idx=1&sn=36f6f48ef7b205cf90921a6a0326cc68&chksm=97edfe09f63dfb5ccf46fd2d1e053538b6eadff657e2bc32af7dc1723ccae29ccc05cb0620eb#rd)
+
 <!-- hf-downloads:start -->
 
 ## Hugging Face downloads

@@ -231,6 +231,11 @@ Each project ships its own environment setup; do not mix them in one conda envir
 - **2025.05** — [Invited talk @ 智猩猩](https://www.bilibili.com/video/BV1Cs7Hz4ETk).
 - **2025.03** — Embodied-Reasoner paper and dataset released.
 
+## Media Coverage · 媒体报道
+
+- **EmbodiedMemory-Bench · 新智元 · 2026.10** — [具身智能体长程记忆：看见不等于记住，浙大提出具身记忆基准](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652735627&idx=3&sn=2195898b4588173b111e6ffc13732156)
+- **Embodied-Navigator · 新智英 · 2026.08** — [浙大&浙江人形提出高效具身导航模型，统一动作、思考、记忆与强化学习！](https://mp.weixin.qq.com/s?__biz=MzE5MTA0NzYxMQ==&mid=2247517546&idx=1&sn=36f6f48ef7b205cf90921a6a0326cc68&chksm=97edfe09f63dfb5ccf46fd2d1e053538b6eadff657e2bc32af7dc1723ccae29ccc05cb0620eb#rd)
+
 ## 📚 Citation
 
 If you find this series useful, please cite the corresponding paper.
